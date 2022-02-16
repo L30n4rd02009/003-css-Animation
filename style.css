@@ -1,0 +1,49 @@
+body{
+    background-image: url(ccc.jpeg);
+    background-size: cover;
+    min-height: 100vh;
+  }
+  
+  .bird{
+    width: 120px;
+    position: absolute;
+    left: 10%;
+    top: 40%;
+   
+    animation: birdAnim 4s infinite;
+  }
+  
+  .img{
+    width: 50%;
+  }
+  
+  @keyframes birdAnim{
+    0%{
+      left: 10%;
+      top: 20%;
+      transform: rotate(1000)
+    }
+    30%{
+      left: 20%;
+      top: 30%;
+  
+      transform: rotate(120deg)
+    }
+    60%{
+      left: 30%;
+      top: 25%;
+      transform: rotate(50deg)
+  
+    }
+    50%{
+        left: 30%;
+        top: 25%;
+        transform: rotate(50deg)
+    
+      }
+    100%{
+      left: 30%;
+      top: 20%;
+      transform: rotate(20deg)
+      
+    }
